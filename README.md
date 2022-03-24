@@ -23,7 +23,19 @@ ou
 ```
 npm install
 ```
-3. Agora, é só rodar o projeto! Para isso, digite:
+3. Depois, instale o Webpack e o React Refresh Webpack Plugin
+```
+npm install --save-dev webpack
+```
+e
+```
+# se você prefere npm
+npm install -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+
+# se você prefere yarn
+yarn add -D @pmmmwh/react-refresh-webpack-plugin react-refresh
+```
+4. Agora, é só rodar o projeto! Para isso, digite:
 ```
 yarn dev
 ```
